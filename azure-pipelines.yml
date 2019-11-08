@@ -17,7 +17,6 @@ variables:
 
 
 
-
 - task: uftpublisher.UFT-Azure-extension.custom-build-task-4.RunFromFileSystemTask@1
   displayName: RunFromFileSystemTask
   inputs:
