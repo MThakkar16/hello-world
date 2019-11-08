@@ -8,7 +8,7 @@ trigger:
 
 pool:
   name: Test_Acceleration_Enablement
-  agent: AJ002894
+  agent: AJ007573
 
 variables:
   solution: '**/*.sln'
@@ -19,4 +19,4 @@ steps:
 - task: uftpublisher.UFT-Azure-extension.custom-build-task-4.RunFromFileSystemTask@1
   displayName: RunFromFileSystemTask
   inputs:
-    testPathInput: 'C:\Users\MThakkar\TAE Automation\TestScripts\ADO'
+    testPathInput: 'C:\Users\KBondapa\Delete\Batch'
