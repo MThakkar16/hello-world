@@ -19,4 +19,4 @@ steps:
 - task: uftpublisher.UFT-Azure-extension.custom-build-task-4.RunFromFileSystemTask@1
   displayName: RunFromFileSystemTask
   inputs:
-    testPathInput: 'C:\Users\MThakkar\TAE Automation\TestScripts\ADO'
+    testPathInput: 'C:\Users\prpatil\Sample'
