@@ -8,7 +8,7 @@ trigger:
 
 pool:
   name: Test_Acceleration_Enablement
-  Agent.name: AJ002894
+  Agent.name: AJ000076
 
 variables:
   solution: '**/*.sln'
